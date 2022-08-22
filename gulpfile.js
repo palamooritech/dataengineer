@@ -33,4 +33,4 @@ gulp.task('open', function(fopen) {
     fopen();
 });
 
-gulp.task('open-app', gulp.series('open', 'watch'));
+gulp.task('build', gulp.series('open', 'watch'));
